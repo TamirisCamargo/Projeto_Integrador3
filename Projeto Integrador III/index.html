@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Clientes - Preferida Joias</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form id="cadastroForm">
+        <h1>Cadastro de Clientes - Preferida Joias</h1>
+        <input type="text" id="nome" placeholder="Nome" required>
+        <input type="text" id="sobrenome" placeholder="Sobrenome" required>
+        <input type="tel" id="telefone" placeholder="Telefone" required>
+        <input type="email" id="email" placeholder="E-mail" required>
+        <select type = "metal" id="metal">
+            <option value="prata">Prata</option>
+            <option value="dourado">Dourado</option>
+        </select>
+        <textarea id="observacao" placeholder="Observação"></textarea>
+        <button type="submit">Cadastrar</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
